@@ -7,22 +7,23 @@ body {
   background-color: aliceblue;
 }
 
-/* logo */
-img {
-  width: 75px;
-  margin-left: 15px;
-}
 
+/* Header */
+header {
+  background-color: aqua;
+}
 .navbar_container {
   display: flex;
   height: 12%;
   align-items: center;
 }
 
-/* Header */
-header {
-  background-color: aqua;
+/* logo */
+img {
+  width: 75px;
+  margin-left: 15px;
 }
+
 nav {
   flex: 1;
   text-align: right;
