@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
   background-color: aliceblue;
 }
 
-
 /* Header */
 header {
-  background-color: #FFEBD6;
+  background-color: #ffebd6;
   height: 40px;
   width: 100%;
   position: fixed;
@@ -27,9 +26,9 @@ header {
 
 /* logo */
 #logo {
-  margin-left: 10px;
+  margin-left: 30px;
   text-decoration: none;
-  color: #B64A47;
+  color: #b64a47;
 }
 
 nav {
@@ -39,50 +38,84 @@ nav {
 
 nav ul li {
   display: inline-block;
-  margin-right: 29px;
+  margin-right: 30px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #302C21;
+  color: #302c21;
 }
 
 /* Main Menu */
 
 /* Hero */
 .hero-container {
-  background-image: url(https://wallpapercave.com/wp/wp7868472.png);
+  background-image: url(https://wallpapercave.com/wp/wp9790515.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70%;
+  background-position: center;
+  height: 500px;
+  padding-top: 40px;
 }
 .hero-container .hero-text-container {
   width: 50%;
   height: 100%;
   padding: 50px 10px 50px 10px;
-  text-align: center;
+  text-align: left;
 }
-.hero-container .hero-text-container h1,p {
-  text-align: justify;
-  padding: 10px;
+
+.hero-heading {
+  font-size: 2em;
+  text-align: left;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.hero-text {
+  text-align: center;
+  margin-top: 250px;
+  padding: 0 30px;
+  color: #ffffff;
 }
 
 /* aboutme */
 .aboutme {
   background: hsl(0, 0%, 100%);
-  padding: 20px;
+  padding: 45px 20px;
+  width: 100%;
+  display: flex;
+}
+
+.aboutme .abtme-txt-container {
   width: 60%;
+}
+
+.abtme-p {
+  text-align: justify;
+  padding-right: 20px;
+}
+
+.abtme-skills {
+  margin-top: 20px;
 }
 
 .aboutme li {
   list-style: none;
-  padding-left: 20px;
+  display: inline;
 }
 
 /* aboutme img */
 #abtme-img {
   width: 40%;
+  display: inline;
 }
+
+/* Projects */
+
+.projects .projects-heading{
+  margin-left: 20px;
+}
+
 /* Footer */
 footer {
   margin-top: 20px;
