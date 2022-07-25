@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
 }
 
 body {
@@ -10,18 +14,22 @@ body {
 
 /* Header */
 header {
-  background-color: aqua;
+  background-color: #FFEBD6;
+  height: 40px;
+  width: 100%;
+  position: fixed;
 }
 .navbar_container {
   display: flex;
-  height: 12%;
+  height: 100%;
   align-items: center;
 }
 
 /* logo */
-img {
-  width: 75px;
-  margin-left: 15px;
+#logo {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #B64A47;
 }
 
 nav {
@@ -36,5 +44,50 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: #302C21;
+}
+
+/* Main Menu */
+
+/* Hero */
+.hero-container {
+  background-image: url(https://wallpapercave.com/wp/wp7868472.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+}
+.hero-container .hero-text-container {
+  width: 50%;
+  height: 100%;
+  padding: 50px 10px 50px 10px;
+  text-align: center;
+}
+.hero-container .hero-text-container h1,p {
+  text-align: justify;
+  padding: 10px;
+}
+
+/* aboutme */
+.aboutme {
+  background: hsl(0, 0%, 100%);
+  padding: 20px;
+  width: 60%;
+}
+
+.aboutme li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+/* aboutme img */
+#abtme-img {
+  width: 40%;
+}
+/* Footer */
+footer {
+  margin-top: 20px;
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+  text-align: center;
 }
