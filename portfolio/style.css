@@ -111,9 +111,23 @@ nav ul li a {
 }
 
 /* Projects */
+.projects {
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.1em;
+}
 
-.projects .projects-heading{
-  margin-left: 20px;
+.projects .projects-heading {
+  margin-bottom: 20px;
+}
+
+.projects .projects-img img{
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+#filipino-img {
+  width: 80%;
 }
 
 /* Footer */

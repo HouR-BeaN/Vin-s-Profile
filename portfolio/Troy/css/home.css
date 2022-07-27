@@ -1,0 +1,47 @@
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+h1 {
+  align-items: center;
+  padding-top: 17px;
+  margin-bottom: 15px;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+h5 {
+  font-family: "Bitter", serif;
+}
+.btn {
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+#name {
+  font-family: "Public Sans", sans-serif;
+}
+#statement {
+  text-align: justify;
+  font-size: 30px;
+}
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+#showcase {
+  background: url(../images/backgound.jpg) no-repeat;
+  height: 500px;
+  background-size: 1800px 600px;
+}
+#greet {
+  width: 500px;
+  font-size: 50px;
+}
+#primer {
+  background: rgba(0, 0, 0, 0.4);
+  height: 452px;
+  position: relative;
+  top: 0px;
+}
